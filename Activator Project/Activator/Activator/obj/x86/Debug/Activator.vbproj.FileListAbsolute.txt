@@ -1,0 +1,20 @@
+C:\Users\Raj Sharma\Desktop\Activator\Activator\bin\Debug\Activator.exe
+C:\Users\Raj Sharma\Desktop\Activator\Activator\bin\Debug\Activator.pdb
+C:\Users\Raj Sharma\Desktop\Activator\Activator\bin\Debug\Activator.xml
+C:\Users\Raj Sharma\Desktop\Activator\Activator\obj\x86\Debug\Activator.frmActivation.resources
+C:\Users\Raj Sharma\Desktop\Activator\Activator\obj\x86\Debug\Activator.Resources.resources
+C:\Users\Raj Sharma\Desktop\Activator\Activator\obj\x86\Debug\Activator.vbproj.GenerateResource.Cache
+C:\Users\Raj Sharma\Desktop\Activator\Activator\obj\x86\Debug\Activator.exe
+C:\Users\Raj Sharma\Desktop\Activator\Activator\obj\x86\Debug\Activator.xml
+C:\Users\Raj Sharma\Desktop\Activator\Activator\obj\x86\Debug\Activator.pdb
+D:\مشاريع\x\x\Source Code 7\Source Code 7\Activator Project\Activator\Activator\bin\Debug\Activator.exe
+D:\مشاريع\x\x\Source Code 7\Source Code 7\Activator Project\Activator\Activator\bin\Debug\Activator.pdb
+D:\مشاريع\x\x\Source Code 7\Source Code 7\Activator Project\Activator\Activator\bin\Debug\Activator.xml
+D:\مشاريع\x\x\Source Code 7\Source Code 7\Activator Project\Activator\Activator\obj\x86\Debug\Activator.vbproj.AssemblyReference.cache
+D:\مشاريع\x\x\Source Code 7\Source Code 7\Activator Project\Activator\Activator\obj\x86\Debug\Activator.frmActivation.resources
+D:\مشاريع\x\x\Source Code 7\Source Code 7\Activator Project\Activator\Activator\obj\x86\Debug\Activator.Resources.resources
+D:\مشاريع\x\x\Source Code 7\Source Code 7\Activator Project\Activator\Activator\obj\x86\Debug\Activator.vbproj.GenerateResource.cache
+D:\مشاريع\x\x\Source Code 7\Source Code 7\Activator Project\Activator\Activator\obj\x86\Debug\Activator.vbproj.CoreCompileInputs.cache
+D:\مشاريع\x\x\Source Code 7\Source Code 7\Activator Project\Activator\Activator\obj\x86\Debug\Activator.exe
+D:\مشاريع\x\x\Source Code 7\Source Code 7\Activator Project\Activator\Activator\obj\x86\Debug\Activator.xml
+D:\مشاريع\x\x\Source Code 7\Source Code 7\Activator Project\Activator\Activator\obj\x86\Debug\Activator.pdb
