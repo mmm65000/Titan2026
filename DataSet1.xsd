@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SIS_DBConnectionString1" IsAppSettingsProperty="true" Modifier="Assembly" Name="SIS_DBConnectionString1 (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Sales_and_Inventory_System.My.MySettings.GlobalReference.Default.SIS_DBConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SalesManComessionTableAdapter" GeneratorDataComponentClassName="SalesManComessionTableAdapter" Name="SalesManComession" UserDataComponentName="SalesManComessionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SIS_DBConnectionString1 (MySettings)" DbObjectName="INV_DB.dbo.SalesManComession" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        SM_ID, SalesMan_ID, Name, Address, City, State, ZipCode, ContactNo, EmailID, Remarks, Photo, CommissionPer, Amount, SalesMan_Comession, Comession, Date, 
+                         TC_ID
+FROM            SalesManComession</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SM_ID" DataSetColumn="SM_ID" />
+              <Mapping SourceColumn="SalesMan_ID" DataSetColumn="SalesMan_ID" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Address" DataSetColumn="Address" />
+              <Mapping SourceColumn="City" DataSetColumn="City" />
+              <Mapping SourceColumn="State" DataSetColumn="State" />
+              <Mapping SourceColumn="ZipCode" DataSetColumn="ZipCode" />
+              <Mapping SourceColumn="ContactNo" DataSetColumn="ContactNo" />
+              <Mapping SourceColumn="EmailID" DataSetColumn="EmailID" />
+              <Mapping SourceColumn="Remarks" DataSetColumn="Remarks" />
+              <Mapping SourceColumn="Photo" DataSetColumn="Photo" />
+              <Mapping SourceColumn="CommissionPer" DataSetColumn="CommissionPer" />
+              <Mapping SourceColumn="Amount" DataSetColumn="Amount" />
+              <Mapping SourceColumn="SalesMan_Comession" DataSetColumn="SalesMan_Comession" />
+              <Mapping SourceColumn="Comession" DataSetColumn="Comession" />
+              <Mapping SourceColumn="Date" DataSetColumn="Date" />
+              <Mapping SourceColumn="TC_ID" DataSetColumn="TC_ID" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SalesManComession" msprop:Generator_RowClassName="SalesManComessionRow" msprop:Generator_RowEvHandlerName="SalesManComessionRowChangeEventHandler" msprop:Generator_RowDeletedName="SalesManComessionRowDeleted" msprop:Generator_RowDeletingName="SalesManComessionRowDeleting" msprop:Generator_RowEvArgName="SalesManComessionRowChangeEvent" msprop:Generator_TablePropName="SalesManComession" msprop:Generator_RowChangedName="SalesManComessionRowChanged" msprop:Generator_UserTableName="SalesManComession" msprop:Generator_RowChangingName="SalesManComessionRowChanging" msprop:Generator_TableClassName="SalesManComessionDataTable" msprop:Generator_TableVarName="tableSalesManComession">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SM_ID" msprop:Generator_UserColumnName="SM_ID" msprop:Generator_ColumnPropNameInTable="SM_IDColumn" msprop:Generator_ColumnPropNameInRow="SM_ID" msprop:Generator_ColumnVarNameInTable="columnSM_ID" type="xs:int" />
+              <xs:element name="SalesMan_ID" msprop:Generator_UserColumnName="SalesMan_ID" msprop:Generator_ColumnPropNameInTable="SalesMan_IDColumn" msprop:Generator_ColumnPropNameInRow="SalesMan_ID" msprop:Generator_ColumnVarNameInTable="columnSalesMan_ID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" msprop:Generator_UserColumnName="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="City" msprop:Generator_UserColumnName="City" msprop:Generator_ColumnPropNameInTable="CityColumn" msprop:Generator_ColumnPropNameInRow="City" msprop:Generator_ColumnVarNameInTable="columnCity" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="State" msprop:Generator_UserColumnName="State" msprop:Generator_ColumnPropNameInTable="StateColumn" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnVarNameInTable="columnState" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ZipCode" msprop:Generator_UserColumnName="ZipCode" msprop:Generator_ColumnPropNameInTable="ZipCodeColumn" msprop:Generator_ColumnPropNameInRow="ZipCode" msprop:Generator_ColumnVarNameInTable="columnZipCode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ContactNo" msprop:Generator_UserColumnName="ContactNo" msprop:Generator_ColumnPropNameInTable="ContactNoColumn" msprop:Generator_ColumnPropNameInRow="ContactNo" msprop:Generator_ColumnVarNameInTable="columnContactNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EmailID" msprop:Generator_UserColumnName="EmailID" msprop:Generator_ColumnPropNameInTable="EmailIDColumn" msprop:Generator_ColumnPropNameInRow="EmailID" msprop:Generator_ColumnVarNameInTable="columnEmailID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Remarks" msprop:Generator_UserColumnName="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Photo" msprop:Generator_UserColumnName="Photo" msprop:Generator_ColumnPropNameInTable="PhotoColumn" msprop:Generator_ColumnPropNameInRow="Photo" msprop:Generator_ColumnVarNameInTable="columnPhoto" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="CommissionPer" msprop:Generator_UserColumnName="CommissionPer" msprop:Generator_ColumnPropNameInTable="CommissionPerColumn" msprop:Generator_ColumnPropNameInRow="CommissionPer" msprop:Generator_ColumnVarNameInTable="columnCommissionPer" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" type="xs:decimal" />
+              <xs:element name="SalesMan_Comession" msprop:Generator_UserColumnName="SalesMan_Comession" msprop:Generator_ColumnPropNameInTable="SalesMan_ComessionColumn" msprop:Generator_ColumnPropNameInRow="SalesMan_Comession" msprop:Generator_ColumnVarNameInTable="columnSalesMan_Comession" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Comession" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Comession" msprop:Generator_ColumnPropNameInTable="ComessionColumn" msprop:Generator_ColumnPropNameInRow="Comession" msprop:Generator_ColumnVarNameInTable="columnComession" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_UserColumnName="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_ColumnPropNameInRow="_Date" msprop:Generator_ColumnVarNameInTable="columnDate" type="xs:dateTime" />
+              <xs:element name="TC_ID" msprop:Generator_UserColumnName="TC_ID" msprop:Generator_ColumnPropNameInTable="TC_IDColumn" msprop:Generator_ColumnPropNameInRow="TC_ID" msprop:Generator_ColumnVarNameInTable="columnTC_ID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SalesManComession" />
+      <xs:field xpath="mstns:SM_ID" />
+      <xs:field xpath="mstns:TC_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
